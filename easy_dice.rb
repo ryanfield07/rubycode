@@ -12,7 +12,7 @@ puts "Your first roll is: " + my_roll.inspect
 dealer_roll = roll(my_dice)
 puts "The dealer's roll is: " + my_roll.inspect
 
-if my_roll[0] > dealer_roll[1]
+if my_roll[0] > dealer_roll[0]
   puts "You win!"
    else 
   puts "You lose!"

@@ -1,4 +1,4 @@
-def roll
+def rollem
   die1 = [1, 2, 3, 4, 5]
   die2 = [1, 2, 3, 4, 5]
   
@@ -7,13 +7,13 @@ def roll
   result = [roll1, roll2]
 end
 
-def rollem
+def rollem_rand
   roll1 = rand(1..6)
   roll2 = rand(1..6)
   result = [roll1, roll2]
 end
 
-first_roll = rollem
+first_roll = rollem_rand
 puts "First roll, you rolled: " + second_roll.inspect
 if second_roll[0] == second_roll[1]
   puts "DOUBLES!!"
