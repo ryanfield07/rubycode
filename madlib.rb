@@ -1,7 +1,7 @@
 puts "Hello! What's your name?"
 name = gets.chomp.downcase
 
-puts "Welcome " + name.capitalize + " !"
+puts "Welcome " + name.capitalize + "!"
 puts "Who is your favorite guy celebrity?"
 celeb1 = gets.chomp.downcase
 puts "Who is your favorite girl celebrity?"
